@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+section{
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+/* -----navbar----- */
+.logo{
+    height: 50px;
+}
+
+.navbar-nav .btn{
+    border-radius: 0;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+.navbar-nav .login-btn:hover{
+    background-color: white;
+}
+.navbar-nav .login-btn{
+    padding-left: 9px;
+    padding-right: 19px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-top: 3px;
+    background-color: transparent;
+    color: #fd6eff;
+    border: 3px solid #fd6eff;
+
+}
+.navbar-nav .signup-btn{
+    background-color: #fd6eff;
+    color:white;
+    border: 0px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.navbar-nav .signup-btn:hover{
+    background-color: white;
+    color: #fd6eff;
+}
+.nav-link{
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fd6eff;
+    transition: 0.1s;
+}
+/* -----end navbar----- */
+
+/* -----section----- */
+.banner-btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    border: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.banner-btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+span{
+    font-weight: bold;
+}
+#home{
+    background-color: #ffd500;
+}
+/* ----end section1---- */
+
+#work{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(5 25 45);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-title{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    height: 300px;
+    width: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon{
+    /* vertical-align: middle; */
+    display: inline-block;
+    justify-content: left;
+}
+.text{
+    /* vertical-align: middle; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    color: #ffb0bd;
+    font-size: 17px;
+}
+.text2{
+    color: #940094;
+    font-size: 17px;
+}
+ .text3{
+     color: #ffff00;
+     font-size: 17px;
+ }
+ .text4{
+    color: #adff2f;
+    font-size: 17px;
+}
+.work-desc{
+    margin: 0;
+    padding: 0;
+}
